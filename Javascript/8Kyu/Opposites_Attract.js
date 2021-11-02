@@ -3,8 +3,8 @@ function lovefunc(flower1, flower2){
     else return true;
   }
   
-  var flow1 = Math.random(0,4);
-  var flow2 = Math.random(0,4);
+  var flow1 = Math.floor((Math.random() * 5) + 1);
+  var flow2 = Math.floor((Math.random() * 5) + 1);
   
   var res = "";
   
